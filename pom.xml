@@ -4,11 +4,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.goodow.vertx</groupId>
-  <artifactId>vertx-maven-template</artifactId>
+  <artifactId>vertx-mod-elasticsearch</artifactId>
   <packaging>jar</packaging>
-  <version>2.0.5-final</version>
-  <name>Project - vertx-maven-template</name>
-  <url>http://maven.apache.org</url>
+  <version>1.1.1</version>
 
   <parent>
      <groupId>org.sonatype.oss</groupId>
@@ -36,7 +34,7 @@
     <mods.directory>target/mods</mods.directory>
 
     <!--Dependency versions-->
-    <vertx.version>2.1RC2</vertx.version>
+    <vertx.version>2.1RC3</vertx.version>
     <vertx.testtools.version>2.0.3-final</vertx.testtools.version>
     <junit.version>4.11</junit.version>
 
@@ -60,6 +58,12 @@
   </repositories>
 
   <dependencies>
+    <dependency>
+      <groupId>org.elasticsearch</groupId>
+      <artifactId>elasticsearch</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+
     <!--Vertx provided dependencies-->
     <dependency>
       <groupId>io.vertx</groupId>
