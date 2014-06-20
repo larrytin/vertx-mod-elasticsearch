@@ -1,4 +1,4 @@
-# Vert.x Example Maven Project
+# Vert.x Example Maven Project [![Build Status](https://travis-ci.org/larrytin/vertx-mod-elasticsearch.svg?branch=master)](https://travis-ci.org/larrytin/vertx-mod-elasticsearch)
 
 Example project for creating a Vert.x module with a Gradle build.
 
