@@ -6,7 +6,7 @@
   <groupId>com.goodow.vertx</groupId>
   <artifactId>vertx-mod-elasticsearch</artifactId>
   <packaging>jar</packaging>
-  <version>1.2.1</version>
+  <version>1.4.4</version>
 
   <parent>
      <groupId>org.sonatype.oss</groupId>
@@ -34,7 +34,7 @@
     <mods.directory>target/mods</mods.directory>
 
     <!--Dependency versions-->
-    <vertx.version>2.1.1</vertx.version>
+    <vertx.version>2.1.5</vertx.version>
     <vertx.testtools.version>2.0.3-final</vertx.testtools.version>
     <junit.version>4.11</junit.version>
 
